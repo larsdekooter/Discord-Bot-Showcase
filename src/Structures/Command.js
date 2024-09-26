@@ -3,10 +3,12 @@ const {
   ChatInputCommandInteraction,
   Client,
 } = require("discord.js");
+
+const ExtendedClient = require("./Client");
 /**
  *
  * @param {ChatInputCommandInteraction} interaction
- * @param {Client} client
+ * @param {ExtendedClient} client
  */
 function executeFunction(interaction, client) {}
 

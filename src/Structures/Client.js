@@ -3,6 +3,7 @@ const fs = require("fs");
 
 // Create a custom client for extended functionality
 module.exports = class ExtendedClient extends Client {
+  commands = new Collection();
   /**
    *
    * @param {ClientOptions} options
